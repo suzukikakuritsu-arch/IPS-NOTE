@@ -1,0 +1,7 @@
+name: note自動投稿
+on: [workflow_dispatch]
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo "✅ IPS-NOTE起動成功！note投稿準備完了"
